@@ -26,7 +26,7 @@
     // see if there is form data to add
 
     String newItem = request.getParameter("newItem");
-    if(newItem != null){
+    if ( (newItem != null) && (!newItem.trim().equals("")) ) {
         items.add(newItem);
     }
 
