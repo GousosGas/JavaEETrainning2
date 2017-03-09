@@ -15,6 +15,19 @@
 
 <body>
 <p>Student is confirmed: ${param.firstname} ${param.lastname}</p>
-<p>Student's country ${param.country}</p>
+<p>Student's country: ${param.country}</p>
+<p>Student's favourite language:
+<ul>
+    <% String[]langs = request.getParameterValues("favouriteLanguage");
+        if (langs != null) {
+            for (String tempLang : langs) {
+                out.println("<li>" + tempLang + "</li>");
+
+            }
+        }
+
+    %>
+</ul>
+</p>
 </body>
 </html>
