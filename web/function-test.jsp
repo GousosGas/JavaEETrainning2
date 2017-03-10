@@ -15,8 +15,11 @@
 </head>
 <body>
 
-<c:set var ="data" value ="ggousopoulos"/>
-    Length of the string ${data}: is ${fn:length(data)}
+<c:set var ="data" value ="gousos"/>
+    Length of the string ${data}: is ${fn:length(data)}<br>
+    The Uppercase of the string ${data}: is ${fn:toUpperCase(data)}<br>
+    Does the string ${data}starts with g?: ${fn:startsWith(data,"g")}<br>
+
 
 
 </body>
