@@ -18,7 +18,7 @@ In JSP, page scope is the default scope.*/
 
     String[] cities={"Larissa","Trikala","Chania"};
     pageContext.setAttribute("MyCities", cities);
-    /*set attribute???????????*/
+
 
 
 %>
