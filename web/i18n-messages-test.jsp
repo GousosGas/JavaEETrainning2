@@ -34,6 +34,7 @@
 <fmt:message key="label.firstname"/> <i>Kostas</i><br>
 <fmt:message key="label.lastname"/><i>Gousopoulos</i><br>
 <fmt:message key="label.welcome"/><br>
-
+<hr>
+Selected language : ${theLocale}
 </body>
 </html>
